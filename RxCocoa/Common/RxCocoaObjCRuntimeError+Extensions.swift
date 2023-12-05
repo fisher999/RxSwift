@@ -7,7 +7,7 @@
 //
 
 #if SWIFT_PACKAGE && !DISABLE_SWIZZLING && !os(Linux)
-    import RxCocoaRuntime
+    @_implementationOnly import RxCocoaRuntime
 #endif
 
 #if !DISABLE_SWIZZLING && !os(Linux)
