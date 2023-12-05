@@ -11,7 +11,7 @@
 import Foundation
 import RxSwift
 #if SWIFT_PACKAGE && !DISABLE_SWIZZLING && !os(Linux)
-    @_implementationOnly import RxCocoaRuntime
+    import RxCocoaRuntime
 #endif
 
 #if !DISABLE_SWIZZLING && !os(Linux)

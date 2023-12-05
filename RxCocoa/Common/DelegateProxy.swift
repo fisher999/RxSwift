@@ -10,7 +10,7 @@
 
     import RxSwift
     #if SWIFT_PACKAGE && !os(Linux)
-        @_implementationOnly import RxCocoaRuntime
+        import RxCocoaRuntime
     #endif
 
     /// Base class for `DelegateProxyType` protocol.
